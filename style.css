@@ -1,0 +1,81 @@
+
+
+:root{
+    font-size: 65.5%;
+}
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+}
+
+section{
+    max-width: 50rem;
+    margin: 10rem auto 0 auto;
+}
+
+/*Container*/
+.container{
+    background-color: #2b2a2a;
+    padding: 2rem;
+    margin-bottom: .5rem;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+form input{
+    width:30rem;
+    border-radius: 1rem;
+    background-color: #191818;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.3rem 2rem;
+}
+
+.btn-add{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+/*Resposta*/
+.resposta{
+    padding:0rem 2rem;
+    background-color: #191818;
+}
+.resposta .wrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p{ 
+    width:28rem;
+    padding:1rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+.btn-wrap{
+    display: flex;
+    gap: 1rem;
+}
+.btn-wrap button{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn-wrap .btn-excluir{
+    background-color: #cf7373;
+}
+.btn-wrap .btn-editar{
+    background-color: #73cf82;
+}
