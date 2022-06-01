@@ -59,10 +59,11 @@ form input{
     justify-content: space-evenly;
 }
 p{ 
-    width:28rem;
+    width: 100%;
     padding:1rem;
     border-radius: 1rem;
     color: #fff;
+    word-break: break-all;
 }
 .btn-wrap{
     display: flex;
