@@ -69,8 +69,6 @@ const editarClick = (button, p) => {
         
         if(!insiraMensagem) return
 
-
-
         p.innerText = insiraMensagem
     })
     
